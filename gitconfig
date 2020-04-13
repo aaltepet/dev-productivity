@@ -1,0 +1,7 @@
+[alias]
+    aplog = log --all --oneline --graph --decorate --color
+    plog = log --oneline --graph --decorate --color
+    arebase = rebase --committer-date-is-author-date
+    masterlist = rev-list --left-right --count origin/master...
+    showfiles = diff-tree --no-commit-id --name-only -r
+    amend = commit --amend --no-edit
